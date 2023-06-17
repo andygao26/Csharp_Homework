@@ -22,18 +22,18 @@ namespace Csharp_form1
         {
             Image_dic = new Dictionary<Button, string>
             {
-                { button1, @"D:\宏旭\C#\pratice\Image\Screen_GIF.gif" },
-                { button2, @"D:\宏旭\C#\pratice\Image\screen_jpg.jpg" },
-                { button3, @"D:\宏旭\C#\pratice\Image\IU_2.jpg" },
-                { button4, @"D:\宏旭\C#\pratice\Image\IUs.jpg" },
-                { button5, @"D:\宏旭\C#\pratice\Image\beer.jpg" },
-                { button6, @"D:\宏旭\C#\pratice\Image\Gin.jpg" },
-                { button7, @"D:\宏旭\C#\pratice\Image\Rum.jpg" },
-                { button8, @"D:\宏旭\C#\pratice\Image\Tequlia.jpg" },
-                { button9, @"D:\宏旭\C#\pratice\Image\Vodka.jpg" },
-                { button10, @"D:\宏旭\C#\pratice\Image\whiskey.jpg" },
-                { button11, @"D:\宏旭\C#\pratice\Image\background_image.jpg" },
-                { button12, @"D:\宏旭\C#\pratice\Image\Post_background.jpg" }
+                { button1, @"D:\宏旭\C#\pratice\Csharp_form1\Image\Screen_GIF.gif" },
+                { button2, @"D:\宏旭\C#\pratice\Csharp_form1\Image\screen_jpg.jpg" },
+                { button3, @"D:\宏旭\C#\pratice\Csharp_form1\Image\IU_2.jpg" },
+                { button4, @"D:\宏旭\C#\pratice\Csharp_form1\Image\IUs.jpg" },
+                { button5, @"D:\宏旭\C#\pratice\Csharp_form1\Image\beer.jpg" },
+                { button6, @"D:\宏旭\C#\pratice\Csharp_form1\Image\Gin.jpg" },
+                { button7, @"D:\宏旭\C#\pratice\Csharp_form1\Image\Rum.jpg" },
+                { button8, @"D:\宏旭\C#\pratice\Csharp_form1\Image\Tequlia.jpg" },
+                { button9, @"D:\宏旭\C#\pratice\Csharp_form1\Image\Vodka.jpg" },
+                { button10, @"D:\宏旭\C#\pratice\Csharp_form1\Image\whiskey.jpg" },
+                { button11, @"D:\宏旭\C#\pratice\Csharp_form1\Image\background_image.jpg" },
+                { button12, @"D:\宏旭\C#\pratice\Csharp_form1\Image\Post_background.jpg" }
             };
         }
         private void Buttons_Click(object sender, EventArgs e)
