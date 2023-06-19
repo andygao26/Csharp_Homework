@@ -19,7 +19,7 @@ namespace Csharp_form1
         }
         char symbol;
         string answer  ;
-        void Calculator(char symbol)
+        void calculator(char symbol)
         {
             bool isNumeric01 = float.TryParse(Num1_text.Text, out float num_1);
             bool isNumeric02 = float.TryParse(Num2_text.Text, out float num_2);
@@ -64,25 +64,25 @@ namespace Csharp_form1
         }
         private void add_btn_Click(object sender, EventArgs e)
         {
-            Calculator(symbol='+');
+            calculator(symbol='+');
         }
 
         private void sub_btn_Click(object sender, EventArgs e)
         {
             char symbol = '-';
-            Calculator(symbol);
+            calculator(symbol);
         }
 
         private void mul_btn_Click(object sender, EventArgs e)
         {
             char symbol = '*';
-            Calculator(symbol);
+            calculator(symbol);
         }
 
         private void div_btn_Click(object sender, EventArgs e)
         {
             char symbol = '/';
-            Calculator(symbol);
+            calculator(symbol);
         }
 
     }
